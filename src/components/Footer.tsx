@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-4">
           <Link href="/">
             <Image
-              src="/products/pictorial.png"
+              src="/products/lumina-logo.png"
               alt="Lumina Logo"
               width={140}
               height={60}
