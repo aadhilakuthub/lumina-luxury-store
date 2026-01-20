@@ -27,6 +27,8 @@ export default function Navbar() {
           <Link href="/collection" className="text-sm hover:text-gray-500">Collection</Link>
           <Link href="/about" className="text-sm hover:text-gray-500">About</Link>
           <Link href="/contact" className="text-sm hover:text-gray-500">Contact</Link>
+          <Link href="/account" className="text-sm hover:text-gray-500">Account</Link>
+          <Link href="/admin" className="text-sm hover:text-gray-500">Admin</Link>
         </div>
 
         {/* Actions + Mobile Menu */}
@@ -56,6 +58,8 @@ export default function Navbar() {
           <Link href="/collection" onClick={() => setOpen(false)}>Collection</Link>
           <Link href="/about" onClick={() => setOpen(false)}>About</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
+          <Link href="/account" onClick={() => setOpen(false)}>Account</Link>
+          <Link href="/admin" onClick={() => setOpen(false)}>Admin</Link>
         </div>
       )}
     </header>
